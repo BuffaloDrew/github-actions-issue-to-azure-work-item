@@ -1,0 +1,33 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "testMatch": [
+      "<rootDir>/src/**/*.(test).{js,jsx,ts,tsx}",
+      "<rootDir>(spec|test).{js,jsx,ts,tsx}"
+    ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/test/test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/test/test/issues"
+  },
+  "homepage": "https://github.com/test/test#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.6",
+    "@actions/github": "^2.1.1",
+    "azure-devops-node-api": "^10.1.0",
+    "dotenv": "^16.0.1",
+    "showdown": "^1.9.1"
+  },
+  "devDependencies": {
+    "jest": "^28.1.3"
+  }
+}
