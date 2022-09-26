@@ -5,7 +5,7 @@ id of Azure Work Item that is created/updated
 
 ## How to use
 1. Add a secret named `AZURE_PAT` containing an [Azure Personal Access Token](https://learn.microsoft.com/en-us/azure/devops/organizations/accounts/use-personal-access-tokens-to-authenticate?view=azure-devops&tabs=Windows) with "read & write" permission for Work Items
-1. Add workflow file (example below) which responds to issue and issue_comment events. All of the supported types are listed in the example below.
+1. Add workflow file (example below) which responds to `issue` and `issue_comment` events. All of the supported types are listed in the example below.
    - Set Azure DevOps organization and project details. (`AZURE_ORG_URL` and `AZURE_PROJECT`)
    - Optional comma separated list of tags to sync (`SYNC_LABELS`). If omitted, all issues will be synced.
    
