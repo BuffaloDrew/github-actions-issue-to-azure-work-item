@@ -1,7 +1,7 @@
 # Create/Sync GitHub Issues in Azure DevOps
 
 ## Output
-id of Azure Work Item that is created/updated
+`id` of Azure Work Item that is created/updated
 
 ## How to use
 1. Add a secret named `AZURE_PAT` containing an [Azure Personal Access Token](https://learn.microsoft.com/en-us/azure/devops/organizations/accounts/use-personal-access-tokens-to-authenticate?view=azure-devops&tabs=Windows) with "read & write" permission for Work Items
@@ -29,6 +29,13 @@ jobs:
         AZURE_ORG_URL: https://dev.azure.com/my-azure-org-url
         AZURE_PROJECT: My Azure Project Name
 ```
+
+## Demo
+
+https://user-images.githubusercontent.com/1747664/192371627-8df797ac-3807-4d10-a586-884ba0a92590.mov
+
+
+
 
 ## Note
 If a GitHub Issue is tagged with `bug` a bug Work Item will be created in Azure DevOps.
